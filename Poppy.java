@@ -11,7 +11,7 @@ class Poppy {
 	}
 
 	public static void main(String[] args) {
-		IntStream.range(1, 10).forEachOrdered(n -> {
+		IntStream.range(1, 3000000).forEachOrdered(n -> {
 		    poppy(n);
 		});
 	}
